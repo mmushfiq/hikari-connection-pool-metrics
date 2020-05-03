@@ -8,8 +8,8 @@ spring:
     oracle-db:
       driver-class-name: oracle.jdbc.OracleDriver
       jdbc-url: jdbc:oracle:thin:@localhost:1521:xe
-      username: sys as sysdba
-      password: oracle
+      username: test
+      password: test
       pool-name: oracle-pool
       maximum-pool-size: 20
       data-source-properties:
